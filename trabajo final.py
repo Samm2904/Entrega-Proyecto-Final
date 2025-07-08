@@ -19,8 +19,6 @@ cursor.execute('''
 conexion.commit()
 conexion.close()
 
-#fijarse la documentacion
-
 def agregar_producto():
     """
     Agrega un nuevo producto a la base de datos de inventario.
